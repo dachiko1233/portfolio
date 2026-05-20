@@ -18,8 +18,8 @@ const projects = [
       'Docker',
       'Makefile',
     ],
-    github: 'https://github.com/dachimari9',
-    demo: null,
+    github: 'https://github.com/dachiko1233/PharmaSense-go',
+    demo: 'https://frontend-production-0b297.up.railway.app/en/login',
   },
   {
     name: 'WorldWise — Travel Tracker',

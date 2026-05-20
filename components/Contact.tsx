@@ -20,14 +20,14 @@ const contactItems = [
   {
     icon: GithubIcon,
     label: 'GitHub',
-    value: 'github.com/dachimari9',
-    href: 'https://github.com/dachimari9',
+    value: 'https://github.com/dachiko1233',
+    href: 'https://github.com/dachiko1233',
   },
   {
     icon: LinkedinIcon,
     label: 'LinkedIn',
-    value: 'Available on request',
-    href: '#',
+    value: 'https://www.linkedin.com/feed/',
+    href: 'https://www.linkedin.com/feed/',
   },
 ];
 
@@ -48,8 +48,8 @@ export function Contact() {
           Let's talk.
         </h3>
         <p className="mt-4 text-zinc-500 dark:text-zinc-400 max-w-md">
-          Open to junior full-stack roles and freelance opportunities. Reach out directly — I
-          respond quickly.
+          Open to junior full-stack roles and freelance opportunities. Reach out
+          directly — I respond quickly.
         </p>
       </motion.div>
 
@@ -70,8 +70,12 @@ export function Contact() {
               <Icon size={16} />
             </div>
             <div>
-              <p className="text-xs text-zinc-400 dark:text-zinc-500">{label}</p>
-              <p className="text-sm font-medium text-zinc-700 dark:text-zinc-300">{value}</p>
+              <p className="text-xs text-zinc-400 dark:text-zinc-500">
+                {label}
+              </p>
+              <p className="text-sm font-medium text-zinc-700 dark:text-zinc-300">
+                {value}
+              </p>
             </div>
           </motion.a>
         ))}
