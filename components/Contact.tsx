@@ -26,8 +26,8 @@ const contactItems = [
   {
     icon: LinkedinIcon,
     label: 'LinkedIn',
-    value: 'https://www.linkedin.com/feed/',
-    href: 'https://www.linkedin.com/feed/',
+    value: 'https://www.linkedin.com/in/dachi-maisashvili-1ab973383/',
+    href: 'https://www.linkedin.com/in/dachi-maisashvili-1ab973383/',
   },
 ];
 

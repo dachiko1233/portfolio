@@ -27,7 +27,7 @@ const projects = [
     description:
       'Interactive travel app to log visited cities on a world map. Features geolocation, reverse-geocoding, and nested routing.',
     stack: ['React', 'React Router', 'Context API', 'Leaflet', 'CSS Modules'],
-    github: 'https://github.com/dachimari9',
+    github: 'https://github.com/dachiko1233/WorldWise1',
     demo: 'https://elaborate-stardust-738273.netlify.app/',
   },
   {
@@ -36,8 +36,8 @@ const projects = [
     description:
       'Movie browsing app powered by the IMDb API. Showcases advanced React patterns including useReducer, useRef, useMemo, and the Provider pattern.',
     stack: ['React', 'JavaScript', 'IMDb API'],
-    github: 'https://github.com/dachimari9',
-    demo: 'https://github.com/dachimari9',
+    github: 'https://github.com/dachiko1233/dachiko1233',
+    demo: 'https://velvety-hamster-272285.netlify.app/',
   },
 ];
 
