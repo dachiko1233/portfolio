@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 import { motion } from 'framer-motion';
 import { Mail, MapPin, ArrowDown } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './icons';
@@ -13,47 +15,61 @@ export function Hero() {
         transition={{ duration: 0.7, ease: 'easeOut' }}
         className="space-y-6"
       >
-        <div className="flex items-center gap-2 text-sm text-zinc-500 dark:text-zinc-400">
-          <MapPin size={14} className="text-emerald-500" />
-          <span>Limassol, Cyprus 🇨🇾</span>
-        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 md:gap-12">
+          <div>
+            <div className="flex items-center gap-2 text-sm text-zinc-500 dark:text-zinc-400 mb-5">
+              <MapPin size={14} className="text-emerald-500" />
+              <span>Limassol, Cyprus 🇨🇾</span>
+            </div>
 
-        <h1 className="text-5xl sm:text-7xl font-bold tracking-tight leading-none text-zinc-900 dark:text-zinc-50">
-          Dachi
-          <br />
-          <span className="text-emerald-500">Maisashvili</span>
-        </h1>
+            <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-none text-zinc-900 dark:text-zinc-50">
+              Dachi
+              <br />
+              <span className="text-emerald-500">Maisashvili</span>
+            </h1>
 
-        <p className="text-xl sm:text-2xl font-medium text-zinc-500 dark:text-zinc-400">
-          Junior Full-Stack Developer
-        </p>
+            <p className="text-lg sm:text-xl md:text-2xl font-medium text-zinc-500 dark:text-zinc-400 mt-3">
+              Junior Full-Stack Developer
+            </p>
 
-        <p className="max-w-xl text-base text-zinc-500 dark:text-zinc-400 leading-relaxed">
-          Self-taught developer building modern web apps with React, Next.js, and Go.
-          Previously led construction teams for 7 years — now building software with the same
-          discipline.
-        </p>
+            <p className="max-w-xl text-base text-zinc-500 dark:text-zinc-400 leading-relaxed mt-4">
+              Self-taught developer building modern web apps with React,
+              Next.js, and Go. Previously led construction teams for 7 years —
+              now building software with the same discipline.
+            </p>
 
-        <div className="flex flex-wrap gap-3 pt-2">
-          <a
-            href="#projects"
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-medium transition-colors"
-          >
-            View Projects
-            <ArrowDown size={14} />
-          </a>
-          <a
-            href="/cv.pdf"
-            download
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-zinc-300 dark:border-zinc-700 text-zinc-700 dark:text-zinc-300 text-sm font-medium hover:border-zinc-400 dark:hover:border-zinc-500 hover:bg-zinc-50 dark:hover:bg-zinc-800/50 transition-colors"
-          >
-            Download CV
-          </a>
+            <div className="flex flex-wrap gap-3 pt-6">
+              <a
+                href="#projects"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-medium transition-colors"
+              >
+                View Projects
+                <ArrowDown size={14} />
+              </a>
+              <a
+                href="/cv.pdf"
+                download
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-zinc-300 dark:border-zinc-700 text-zinc-700 dark:text-zinc-300 text-sm font-medium hover:border-zinc-400 dark:hover:border-zinc-500 hover:bg-zinc-50 dark:hover:bg-zinc-800/50 transition-colors"
+              >
+                Download CV
+              </a>
+            </div>
+          </div>
+
+          <div className="flex justify-center items-center order-first md:order-last">
+            <Image
+              src="/dachi.jpeg"
+              alt="Dachi Maisashvili"
+              width={300}
+              height={300}
+              className="rounded-4xl w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 object-cover"
+            />
+          </div>
         </div>
 
         <div className="flex items-center gap-5 pt-2">
           <a
-            href="https://github.com/dachimari9"
+            href="https://github.com/dachiko1233"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -62,7 +78,7 @@ export function Hero() {
             <GithubIcon size={20} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/dachi-maisashvili-1ab973383/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
