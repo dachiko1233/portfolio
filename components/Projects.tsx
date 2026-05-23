@@ -28,7 +28,7 @@ const projects = [
       'Interactive travel app to log visited cities on a world map. Features geolocation, reverse-geocoding, and nested routing.',
     stack: ['React', 'React Router', 'Context API', 'Leaflet', 'CSS Modules'],
     github: 'https://github.com/dachiko1233/WorldWise1',
-    demo: 'https://elaborate-stardust-738273.netlify.app/',
+    demo: 'https://ubiquitous-naiad-e2b034.netlify.app/',
   },
   {
     name: 'Movies Web App',
