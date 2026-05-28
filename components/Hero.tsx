@@ -46,13 +46,6 @@ export function Hero() {
                 View Projects
                 <ArrowDown size={14} />
               </a>
-              <a
-                href="/cv.pdf"
-                download
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-zinc-300 dark:border-zinc-700 text-zinc-700 dark:text-zinc-300 text-sm font-medium hover:border-zinc-400 dark:hover:border-zinc-500 hover:bg-zinc-50 dark:hover:bg-zinc-800/50 transition-colors"
-              >
-                Download CV
-              </a>
             </div>
           </div>
 

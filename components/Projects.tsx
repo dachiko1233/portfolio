@@ -19,7 +19,7 @@ const projects = [
       'Makefile',
     ],
     github: 'https://github.com/dachiko1233/PharmaSense-go',
-    demo: 'https://frontend-production-0b297.up.railway.app/en/login',
+    demo: 'https://www.pharmasense.co/en/login',
   },
   {
     name: 'WorldWise — Travel Tracker',

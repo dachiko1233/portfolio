@@ -86,16 +86,7 @@ export function Contact() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.3 }}
-      >
-        <a
-          href="/cv.pdf"
-          download
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-medium transition-colors"
-        >
-          <Download size={16} />
-          Download CV
-        </a>
-      </motion.div>
+      ></motion.div>
     </section>
   );
 }
