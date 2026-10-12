@@ -7,7 +7,7 @@ import { GithubIcon } from "./icons";
 const projects = [
   {
     name: "Pharmacy Management Platform",
-    status: "In Progress",
+    status: "Done"
     description:
       "Full-stack web application for pharmacies. Manages inventory, prescriptions, and sales workflows with a focus on clean API design and data integrity.",
     stack: [
