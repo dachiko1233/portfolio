@@ -1,43 +1,43 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { ExternalLink, Clock, CheckCircle2 } from 'lucide-react';
-import { GithubIcon } from './icons';
+import { motion } from "framer-motion";
+import { ExternalLink, Clock, CheckCircle2 } from "lucide-react";
+import { GithubIcon } from "./icons";
 
 const projects = [
   {
-    name: 'Pharmacy Management Platform',
-    status: 'In Progress',
+    name: "Pharmacy Management Platform",
+    status: "In Progress",
     description:
-      'Full-stack web application for pharmacies. Manages inventory, prescriptions, and sales workflows with a focus on clean API design and data integrity.',
+      "Full-stack web application for pharmacies. Manages inventory, prescriptions, and sales workflows with a focus on clean API design and data integrity.",
     stack: [
-      'Next.js',
-      'TypeScript',
-      'Go (Gin)',
-      'PostgreSQL',
-      'Docker',
-      'Makefile',
+      "Next.js",
+      "TypeScript",
+      "Go (Gin)",
+      "PostgreSQL",
+      "Docker",
+      "Makefile",
     ],
-    github: 'https://github.com/dachiko1233/PharmaSense-go',
-    demo: 'https://www.pharmasense.co/en/login',
+    github: "https://github.com/dachiko1233/PharmaSense-go",
+    demo: "https://www.pharmasense.co/en",
   },
   {
-    name: 'WorldWise — Travel Tracker',
-    status: 'Completed',
+    name: "WorldWise — Travel Tracker",
+    status: "Completed",
     description:
-      'Interactive travel app to log visited cities on a world map. Features geolocation, reverse-geocoding, and nested routing.',
-    stack: ['React', 'React Router', 'Context API', 'Leaflet', 'CSS Modules'],
-    github: 'https://github.com/dachiko1233/WorldWise1',
-    demo: 'https://ubiquitous-naiad-e2b034.netlify.app/',
+      "Interactive travel app to log visited cities on a world map. Features geolocation, reverse-geocoding, and nested routing.",
+    stack: ["React", "React Router", "Context API", "Leaflet", "CSS Modules"],
+    github: "https://github.com/dachiko1233/WorldWise1",
+    demo: "https://ubiquitous-naiad-e2b034.netlify.app/",
   },
   {
-    name: 'Movies Web App',
-    status: 'Completed',
+    name: "Movies Web App",
+    status: "Completed",
     description:
-      'Movie browsing app powered by the IMDb API. Showcases advanced React patterns including useReducer, useRef, useMemo, and the Provider pattern.',
-    stack: ['React', 'JavaScript', 'IMDb API'],
-    github: 'https://github.com/dachiko1233/dachiko1233',
-    demo: 'https://velvety-hamster-272285.netlify.app/',
+      "Movie browsing app powered by the IMDb API. Showcases advanced React patterns including useReducer, useRef, useMemo, and the Provider pattern.",
+    stack: ["React", "JavaScript", "IMDb API"],
+    github: "https://github.com/dachiko1233/dachiko1233",
+    demo: "https://velvety-hamster-272285.netlify.app/",
   },
 ];
 
@@ -70,7 +70,7 @@ export function Projects() {
             className="group flex flex-col p-6 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 hover:border-emerald-500/40 hover:shadow-lg hover:shadow-emerald-500/5 transition-all duration-300"
           >
             <div className="mb-4">
-              {project.status === 'In Progress' ? (
+              {project.status === "In Progress" ? (
                 <span className="inline-flex items-center gap-1.5 text-xs font-medium text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-400/10 px-2.5 py-1 rounded-full border border-amber-200 dark:border-amber-400/20">
                   <Clock size={10} />
                   In Progress
