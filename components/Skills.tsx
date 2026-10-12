@@ -4,28 +4,41 @@ import { motion } from 'framer-motion';
 
 const skillGroups = [
   {
-    category: 'Languages',
-    skills: ['JavaScript', 'TypeScript', 'Go', 'HTML5', 'CSS3', 'SQL'],
+    category: 'QA & Testing',
+    skills: [
+      'Functional testing',
+      'UI testing',
+      'Responsive testing',
+      'Accessibility testing',
+      'Usability testing',
+      'API testing (Postman)',
+      'REST APIs',
+      'SQL queries (PostgreSQL)',
+      'Verifying against requirements',
+    ],
   },
   {
-    category: 'Frontend',
-    skills: ['React', 'Next.js', 'Tailwind CSS', 'React Router', 'Context API', 'Framer Motion'],
+    category: 'Languages & Frontend',
+    skills: ['JavaScript', 'TypeScript', 'React.js', 'Next.js', 'HTML', 'CSS', 'Tailwind CSS'],
   },
   {
-    category: 'Backend',
-    skills: ['Go (Gin)', 'REST APIs', 'Authentication', 'Middleware'],
+    category: 'Backend & Database',
+    skills: ['Go (Gin)', 'REST APIs', 'PostgreSQL', 'SQL'],
   },
   {
-    category: 'Database',
-    skills: ['PostgreSQL', 'Schema Migrations', 'SQL Queries'],
+    category: 'Tools & Platforms',
+    skills: ['Postman', 'Docker', 'Git', 'GitHub', 'Makefile', 'WordPress'],
   },
   {
-    category: 'DevOps & Tools',
-    skills: ['Docker', 'Git', 'GitHub', 'Makefile', 'VS Code', 'Postman'],
-  },
-  {
-    category: 'Design',
-    skills: ['Figma', 'Responsive UI', 'Mobile-first'],
+    category: 'Professional',
+    skills: [
+      'Attention to detail',
+      'Problem-solving',
+      'Clear communication',
+      'Team collaboration',
+      'Working independently',
+      'Team leadership',
+    ],
   },
 ];
 

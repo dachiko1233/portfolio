@@ -19,7 +19,7 @@ export function Hero() {
           <div>
             <div className="flex items-center gap-2 text-sm text-zinc-500 dark:text-zinc-400 mb-5">
               <MapPin size={14} className="text-emerald-500" />
-              <span>Limassol, Cyprus 🇨🇾</span>
+              <span>Limassol, Cyprus 🇨🇾 · available on-site</span>
             </div>
 
             <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-none text-zinc-900 dark:text-zinc-50">
@@ -29,13 +29,17 @@ export function Hero() {
             </h1>
 
             <p className="text-lg sm:text-xl md:text-2xl font-medium text-zinc-500 dark:text-zinc-400 mt-3">
-              Junior Full-Stack Developer
+              Junior Manual QA Engineer
+              <span className="block text-base sm:text-lg text-zinc-400 dark:text-zinc-500">
+                Web Developer background
+              </span>
             </p>
 
             <p className="max-w-xl text-base text-zinc-500 dark:text-zinc-400 leading-relaxed mt-4">
-              Self-taught developer building modern web apps with React,
-              Next.js, and Go. Previously led construction teams for 7 years —
-              now building software with the same discipline.
+              Detail-oriented web developer moving into manual software quality
+              assurance — I know how web apps are built, where they break, and
+              how to verify them. Hands-on with REST APIs, Postman, and SQL in
+              PostgreSQL.
             </p>
 
             <div className="flex flex-wrap gap-3 pt-6">
@@ -80,7 +84,7 @@ export function Hero() {
             <LinkedinIcon size={20} />
           </a>
           <a
-            href="mailto:dachimari9@gmail.com"
+            href="mailto:dachimaisashvilidev@gmail.com"
             aria-label="Email"
             className="text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors"
           >

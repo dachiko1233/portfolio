@@ -9,13 +9,13 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: 'Dachi Maisashvili — Junior Full-Stack Developer',
+  title: 'Dachi Maisashvili — Junior Manual QA Engineer',
   description:
-    'Self-taught developer building modern web apps with React, Next.js, and Go. Based in Limassol, Cyprus.',
+    'Detail-oriented QA engineer with a web developer background. Manual testing of web applications — functional, UI, responsive, accessibility — plus API testing with Postman and SQL in PostgreSQL. Based in Limassol, Cyprus.',
   openGraph: {
-    title: 'Dachi Maisashvili — Junior Full-Stack Developer',
+    title: 'Dachi Maisashvili — Junior Manual QA Engineer',
     description:
-      'Self-taught developer building modern web apps with React, Next.js, and Go. Based in Limassol, Cyprus.',
+      'Detail-oriented QA engineer with a web developer background. Manual testing, API testing with Postman, and SQL in PostgreSQL. Based in Limassol, Cyprus.',
     type: 'website',
   },
 };

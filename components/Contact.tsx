@@ -8,14 +8,14 @@ const contactItems = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'dachimari9@gmail.com',
-    href: 'mailto:dachimari9@gmail.com',
+    value: 'dachimaisashvilidev@gmail.com',
+    href: 'mailto:dachimaisashvilidev@gmail.com',
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+357 95 195 018',
-    href: 'tel:+35795195018',
+    value: '+357 95 195 0189',
+    href: 'tel:+357951950189',
   },
   {
     icon: GithubIcon,
@@ -48,8 +48,8 @@ export function Contact() {
           Let's talk.
         </h3>
         <p className="mt-4 text-zinc-500 dark:text-zinc-400 max-w-md">
-          Open to junior full-stack roles and freelance opportunities. Reach out
-          directly — I respond quickly.
+          Open to junior manual QA roles — on-site in Limassol, Cyprus. Reach out
+          directly and I'll respond quickly.
         </p>
       </motion.div>
 

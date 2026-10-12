@@ -6,27 +6,44 @@ import { GithubIcon } from "./icons";
 
 const projects = [
   {
-    name: "Pharmacy Management Platform",
-    status: "Done"
+    name: "PharmaSense — Pharmacy Inventory & Quality Management",
+    status: "Completed",
     description:
-      "Full-stack web application for pharmacies. Manages inventory, prescriptions, and sales workflows with a focus on clean API design and data integrity.",
+      "Full-stack SaaS dashboard built end-to-end to replace manual, error-prone pharmacy inventory tracking. Designed REST APIs and exercised them through Postman, modelled data and wrote SQL queries in PostgreSQL, and automated expiry alerts via scheduled emails — a single source of truth for stock, expiry, and quality status.",
     stack: [
+      "Go (Gin)",
       "Next.js",
       "TypeScript",
-      "Go (Gin)",
       "PostgreSQL",
       "Docker",
-      "Makefile",
     ],
     github: "https://github.com/dachiko1233/PharmaSense-go",
     demo: "https://www.pharmasense.co/en",
   },
   {
+    name: "The Wedding — Digital Invitation",
+    status: "Completed",
+    description:
+      "Elegant, production-deployed wedding invitation microsite for Nicole & Giorgi. A fully responsive, animated single-page experience with event details and RSVP, built with smooth motion and a polished, mobile-first layout.",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    github: null,
+    demo: "https://www.thewedding.gdn/",
+  },
+  {
+    name: "GhostLeads — Lead Generation Platform",
+    status: "Completed",
+    description:
+      "SaaS lead-generation platform that surfaces local businesses with little or no social-media presence. Aggregates public Google business data, scores each prospect by a 0–100 “hotness” ranking based on posting gaps, and delivers customizable lead packages (phone, email, website) as CSV downloads on a no-subscription, pay-per-lead model.",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    github: null,
+    demo: "https://www.getghostleads.com/",
+  },
+  {
     name: "WorldWise — Travel Tracker",
     status: "Completed",
     description:
-      "Interactive travel app to log visited cities on a world map. Features geolocation, reverse-geocoding, and nested routing.",
-    stack: ["React", "React Router", "Context API", "Leaflet", "CSS Modules"],
+      "Interactive map app to log visited cities, with client-side routing (nested, dynamic, and protected routes), global state via Context API and useReducer, and geolocation with reverse-geocoding.",
+    stack: ["React", "React Router", "Context API", "Leaflet"],
     github: "https://github.com/dachiko1233/WorldWise1",
     demo: "https://ubiquitous-naiad-e2b034.netlify.app/",
   },
@@ -34,7 +51,7 @@ const projects = [
     name: "Movies Web App",
     status: "Completed",
     description:
-      "Movie browsing app powered by the IMDb API. Showcases advanced React patterns including useReducer, useRef, useMemo, and the Provider pattern.",
+      "Single-page movie browser consuming the IMDb API, with search, filtering, and routing.",
     stack: ["React", "JavaScript", "IMDb API"],
     github: "https://github.com/dachiko1233/dachiko1233",
     demo: "https://velvety-hamster-272285.netlify.app/",
@@ -102,15 +119,17 @@ export function Projects() {
             </div>
 
             <div className="flex items-center gap-4">
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-xs text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors"
-              >
-                <GithubIcon size={14} />
-                GitHub
-              </a>
+              {project.github && (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-xs text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors"
+                >
+                  <GithubIcon size={14} />
+                  GitHub
+                </a>
+              )}
               {project.demo && (
                 <a
                   href={project.demo}
