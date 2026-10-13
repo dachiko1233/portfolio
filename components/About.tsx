@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 const languages = [
   { name: 'Georgian', level: 'Native' },
   { name: 'Greek', level: 'Fluent' },
-  { name: 'English', level: 'B1–B2' },
   { name: 'Russian', level: 'B1' },
 ];
 
@@ -58,7 +57,7 @@ export function About() {
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 border border-zinc-200 dark:border-zinc-700"
                 >
                   {name}
-                  <span className="text-xs text-zinc-400 dark:text-zinc-500">· {level}</span>
+                  {level && <span className="text-xs text-zinc-400 dark:text-zinc-500">· {level}</span>}
                 </span>
               ))}
             </div>
