@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 const languages = [
   { name: 'Georgian', level: 'Native' },
   { name: 'Greek', level: 'Fluent' },
+  { name: 'English', level: 'Fluent' },
   { name: 'Russian', level: 'B1' },
 ];
 
@@ -21,28 +22,27 @@ export function About() {
           About
         </h2>
         <h3 className="text-3xl sm:text-4xl font-bold text-zinc-900 dark:text-zinc-50 mb-10">
-          From building things
+          I build full-stack products,
           <br />
-          to breaking them — on purpose.
+          end to end.
         </h3>
 
         <div className="grid md:grid-cols-2 gap-10">
           <div className="space-y-4 text-zinc-500 dark:text-zinc-400 leading-relaxed">
             <p>
-              I'm a detail-oriented web developer moving into manual software quality assurance. I
-              bring hands-on knowledge of how web applications are built, where they break, and how
-              to verify them — testing for functionality, responsiveness, accessibility, and
-              usability against requirements.
+              I'm a full-stack developer specialising in Go (Gin) on the backend and React/Next.js
+              with TypeScript on the frontend. I design REST APIs, model data and write SQL in
+              PostgreSQL, and containerise my stacks with Docker.
             </p>
             <p>
-              My technical background means I speak the same language as engineers. I design and
-              exercise REST APIs through Postman, model data and write SQL queries in PostgreSQL,
-              and have shipped full-stack applications with React, Next.js, and Go.
+              On the frontend I build responsive, accessible, polished web interfaces — and I've
+              shipped live products end-to-end, from the API layer to the deployed dashboard. I care
+              about details: consistent layouts across devices, usability, and clean code.
             </p>
             <p>
               Before software, I spent six years leading onsite construction teams — daily quality
               control, catching errors before handover, and clear communication with clients and
-              engineers. That discipline is exactly what good QA runs on.
+              engineers. That discipline carries straight into how I build and ship software.
             </p>
           </div>
 

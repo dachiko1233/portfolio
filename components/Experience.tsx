@@ -12,9 +12,9 @@ const entries = [
     period: 'Sep 2025 – Dec 2025',
     location: 'Limassol, Cyprus',
     points: [
-      'Applied accessibility practices and UI/UX improvements to existing websites, identifying and fixing usability issues for end users',
       'Developed and maintained responsive websites with JavaScript, HTML, and CSS, ensuring consistent layout and behaviour across screen sizes and devices',
-      'Collaborated with designers and team members to deliver visually consistent, functional WordPress websites that met design requirements',
+      'Built and customized WordPress websites, collaborating with designers and team members to deliver visually consistent, functional solutions',
+      'Applied accessibility practices and UI/UX improvements to existing websites to enhance usability',
     ],
   },
   {

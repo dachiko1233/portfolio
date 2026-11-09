@@ -4,40 +4,33 @@ import { motion } from 'framer-motion';
 
 const skillGroups = [
   {
-    category: 'QA & Testing',
+    category: 'Backend',
+    skills: ['Go', 'Gin', 'REST API design', 'PostgreSQL', 'SQL'],
+  },
+  {
+    category: 'Frontend',
     skills: [
-      'Functional testing',
-      'UI testing',
-      'Responsive testing',
-      'Accessibility testing',
-      'Usability testing',
-      'API testing (Postman)',
-      'REST APIs',
-      'SQL queries (PostgreSQL)',
-      'Verifying against requirements',
+      'React.js',
+      'Next.js',
+      'TypeScript',
+      'JavaScript',
+      'HTML',
+      'CSS',
+      'Tailwind CSS',
+      'WordPress',
     ],
   },
   {
-    category: 'Languages & Frontend',
-    skills: ['JavaScript', 'TypeScript', 'React.js', 'Next.js', 'HTML', 'CSS', 'Tailwind CSS'],
-  },
-  {
-    category: 'Backend & Database',
-    skills: ['Go (Gin)', 'REST APIs', 'PostgreSQL', 'SQL'],
-  },
-  {
-    category: 'Tools & Platforms',
-    skills: ['Postman', 'Docker', 'Git', 'GitHub', 'Makefile', 'WordPress'],
+    category: 'Tools & DevOps',
+    skills: ['Docker', 'Git', 'GitHub', 'Makefile', 'Postman'],
   },
   {
     category: 'Professional',
     skills: [
-      'Attention to detail',
-      'Problem-solving',
-      'Clear communication',
-      'Team collaboration',
-      'Working independently',
       'Team leadership',
+      'Problem-solving',
+      'Communication',
+      'Project management',
     ],
   },
 ];

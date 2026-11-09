@@ -9,7 +9,7 @@ const projects = [
     name: "PharmaSense — Pharmacy Inventory & Quality Management",
     status: "Completed",
     description:
-      "Full-stack SaaS dashboard built end-to-end to replace manual, error-prone pharmacy inventory tracking. Designed REST APIs and exercised them through Postman, modelled data and wrote SQL queries in PostgreSQL, and automated expiry alerts via scheduled emails — a single source of truth for stock, expiry, and quality status.",
+      "A full-stack SaaS platform that replaces manual, error-prone pharmacy inventory tracking with a single source of truth for stock, expiry, and quality status. Go (Gin) REST APIs, PostgreSQL data modelling, bulk product import, and automated expiry alerts via scheduled emails — the whole stack shipped end-to-end and containerised with Docker.",
     stack: [
       "Go (Gin)",
       "Next.js",
@@ -21,20 +21,11 @@ const projects = [
     demo: "https://www.pharmasense.co/en",
   },
   {
-    name: "The Wedding — Digital Invitation",
+    name: "GhostLeads — B2B Lead-Generation Service",
     status: "Completed",
     description:
-      "Elegant, production-deployed wedding invitation microsite for Nicole & Giorgi. A fully responsive, animated single-page experience with event details and RSVP, built with smooth motion and a polished, mobile-first layout.",
-    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    github: null,
-    demo: "https://www.thewedding.gdn/",
-  },
-  {
-    name: "GhostLeads — Lead Generation Platform",
-    status: "Completed",
-    description:
-      "SaaS lead-generation platform that surfaces local businesses with little or no social-media presence. Aggregates public Google business data, scores each prospect by a 0–100 “hotness” ranking based on posting gaps, and delivers customizable lead packages (phone, email, website) as CSV downloads on a no-subscription, pay-per-lead model.",
-    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+      "A pay-per-lead service I founded and built end-to-end: verified lists of local businesses with dormant social media, delivered as CSV. The site pairs an interactive pricing calculator and lead-quantity slider with Dodo Payments checkout — no subscription, you pay only for the leads you pull.",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Dodo Payments"],
     github: null,
     demo: "https://www.getghostleads.com/",
   },
@@ -42,7 +33,7 @@ const projects = [
     name: "WorldWise — Travel Tracker",
     status: "Completed",
     description:
-      "Interactive map app to log visited cities, with client-side routing (nested, dynamic, and protected routes), global state via Context API and useReducer, and geolocation with reverse-geocoding.",
+      "An interactive map app for logging the cities you've visited — nested, dynamic, and protected routes, global state with Context API and useReducer, and geolocation that reverse-geocodes your position to auto-fill city data.",
     stack: ["React", "React Router", "Context API", "Leaflet"],
     github: "https://github.com/dachiko1233/WorldWise1",
     demo: "https://ubiquitous-naiad-e2b034.netlify.app/",
@@ -51,10 +42,19 @@ const projects = [
     name: "Movies Web App",
     status: "Completed",
     description:
-      "Single-page movie browser consuming the IMDb API, with search, filtering, and routing.",
+      "A single-page movie browser built on the IMDb API — search, filtering, and routing, with useReducer, useRef, and useMemo keeping state and rendering tight.",
     stack: ["React", "JavaScript", "IMDb API"],
     github: "https://github.com/dachiko1233/dachiko1233",
     demo: "https://velvety-hamster-272285.netlify.app/",
+  },
+  {
+    name: "The Wedding — Digital Invitation",
+    status: "Completed",
+    description:
+      "Elegant, production-deployed wedding invitation microsite. A fully responsive, animated single-page experience with event details and RSVP, built with smooth motion and a polished, mobile-first layout.",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    github: null,
+    demo: "https://www.thewedding.gdn/",
   },
 ];
 

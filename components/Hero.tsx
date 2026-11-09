@@ -29,17 +29,17 @@ export function Hero() {
             </h1>
 
             <p className="text-lg sm:text-xl md:text-2xl font-medium text-zinc-500 dark:text-zinc-400 mt-3">
-              Junior Manual QA Engineer
+              Full-Stack Developer
               <span className="block text-base sm:text-lg text-zinc-400 dark:text-zinc-500">
-                Web Developer background
+                Go &amp; React
               </span>
             </p>
 
             <p className="max-w-xl text-base text-zinc-500 dark:text-zinc-400 leading-relaxed mt-4">
-              Detail-oriented web developer moving into manual software quality
-              assurance — I know how web apps are built, where they break, and
-              how to verify them. Hands-on with REST APIs, Postman, and SQL in
-              PostgreSQL.
+              I build web products end-to-end — Go (Gin) APIs on the backend,
+              React &amp; Next.js with TypeScript on the frontend. Comfortable
+              across REST design, PostgreSQL, and Docker, with a real eye for
+              responsive, accessible interfaces.
             </p>
 
             <div className="flex flex-wrap gap-3 pt-6">

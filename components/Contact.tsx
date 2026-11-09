@@ -14,8 +14,8 @@ const contactItems = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+357 95 195 0189',
-    href: 'tel:+357951950189',
+    value: '+357 95195018',
+    href: 'tel:+35795195018',
   },
   {
     icon: GithubIcon,
@@ -48,8 +48,8 @@ export function Contact() {
           Let's talk.
         </h3>
         <p className="mt-4 text-zinc-500 dark:text-zinc-400 max-w-md">
-          Open to junior manual QA roles — on-site in Limassol, Cyprus. Reach out
-          directly and I'll respond quickly.
+          Open to full-stack and frontend developer roles, on-site in Limassol,
+          Cyprus. Drop me a line — I reply fast.
         </p>
       </motion.div>
 
